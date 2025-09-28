@@ -98,3 +98,25 @@ Registrasi adalah interface (kontrak), dengan mendefinisikan satu method wajib y
 Semua class yang implements Registrasi wajib menyediakan implementasi dari method ini.
 
 
+
+## Alur Program
+
+<img width="470" height="342" alt="image" src="https://github.com/user-attachments/assets/f707678e-1835-4dfa-8dd1-b37ae9447edc" />
+
+disini saya memilih menu no 1 untuk Tambah Pasien, karna sebelumnya saya menambahkan Superclass dan Subclass, maka disini diminta untuk memilih pasien dewasa atau pasien anak, dan saya memilih untuk menginput pasien dewasa dengan masukkan nama, umur, dan layanan. karena saya memilih pasien dewasa, maka otomatis program meminta untuk masukkan pekerjaan sesuai dengan subclass pasien dewasa.
+
+<img width="278" height="142" alt="image" src="https://github.com/user-attachments/assets/89366965-8b4f-46dc-aaa4-f620b29ea0ff" />
+
+berikut adalah output pasien dewasa
+
+<img width="506" height="567" alt="image" src="https://github.com/user-attachments/assets/f791a79e-e6ff-4c72-b641-c4fc01cfc37c" />
+
+Sama seperti sebelumnya, saya menambahkan pasien dengan memilih pasien anak, dan saya memilih untuk menginput pasien anak dengan masukkan nama, umur, dan layanan. karena saya memilih pasien anak, maka otomatis program meminta untuk masukkan nama orang tua sesuai dengan subclass pasien anak. 
+
+<img width="275" height="147" alt="image" src="https://github.com/user-attachments/assets/3bff8efd-3c3d-426b-ba8a-23684058a4e4" />
+
+
+berikut adalah output pasien Anak
+
+jadi itulah fungsi dari Superclass dan Subclass, untuk opsi menu lainnya sama seperti sebelumnya, hanya beda pada menu "Tambah Pasien" dengan turuan dari Pasien yaitu PasienDewasa dan PasienAnak
+
